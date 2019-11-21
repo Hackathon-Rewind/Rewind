@@ -6,9 +6,7 @@ import {Link} from "react-router-dom";
 const cx = classNames.bind(styles);
 
 class MissCard extends Component {
-    state = {
-        data: ''
-    };
+
     render() {
         return (
             <div className={cx('miss-card')}>
