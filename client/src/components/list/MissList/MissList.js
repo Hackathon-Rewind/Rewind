@@ -6,6 +6,9 @@ import {Link} from "react-router-dom";
 const cx = classNames.bind(styles);
 
 class MissCard extends Component {
+    state = {
+        data: ''
+    };
     render() {
         return (
             <div className={cx('miss-card')}>
@@ -14,7 +17,7 @@ class MissCard extends Component {
                 </div>
                 <div className={cx('miss-data')}>
                     <div className={cx('miss-top')}>
-                        <div className={cx('name')}><h4><Link to={"/list/"+this.props.idx}>{this.props.name}</Link></h4></div>
+                        <div className={cx('name')}><h4><Link to={"/list/"+this.props.idx} onClick={this.setState()}>{this.props.name}</Link></h4></div>
                         <div className={cx('gender')}><p>{this.props.gender}</p></div>
                         <div className={cx('age')}><p>{this.props.age}</p></div>
                     </div>
@@ -39,7 +42,6 @@ class MissList extends Component{
         this.callApi()
             .then(res => this.setState({miss: res}))
             .catch(err => console.log(err));
-        console.log(this.state.miss);
     }
 
     callApi = async () => {
