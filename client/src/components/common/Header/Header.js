@@ -15,8 +15,8 @@ const Header = () => {
                         <div className={cx('logo')}>로고일겁니다</div>
                     </Link>
                     <li><Link to="/list" className={cx('link')}>실종자 찾기</Link></li>
-                    <li><Link to="/report" className={cx('link')}>실종자 신청</Link></li>
-                    <li><Link to="/제보" className={cx('link')}>제보하기</Link></li>
+                    <li><Link to="/apply" className={cx('link')}>실종자 신청</Link></li>
+                    <li><Link to="/report" className={cx('link')}>제보하기</Link></li>
                     <li><Link to="/mypage" className={cx('link')}>내정보</Link></li>
                     <li><Link to="/로그아웃" className={cx('link')}>로그아웃</Link></li>
                     {/*<li><Link to="/회원가입" className={cx('link')}>회원가입</Link></li>*/}
