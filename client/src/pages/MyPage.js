@@ -4,7 +4,9 @@ import {PageTemplate} from "../components/common";
 const MyPage = () => {
     return (
         <PageTemplate>
-            안녕세상
+            <div className="container">
+                안녕세상
+            </div>
         </PageTemplate>
     )
 };

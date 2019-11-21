@@ -1,10 +1,13 @@
 import React from 'react';
 import {PageTemplate} from "../components/common";
 
-const MissingPage = () => {
+const MissingPage = ({ match }) => {
+    console.log(match);
     return (
         <PageTemplate>
-
+            <div className="container">
+                { match.params.id }
+            </div>
         </PageTemplate>
     )
 };

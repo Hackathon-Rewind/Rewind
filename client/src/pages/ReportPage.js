@@ -5,7 +5,9 @@ import ReportComponent from '../components/Report/ReportComponent';
 const ReportPage = () => {
     return (
         <PageTemplate>
-            <ReportComponent/>
+            <div className="container">
+                <ReportComponent/>
+            </div>
         </PageTemplate>
     )
 };

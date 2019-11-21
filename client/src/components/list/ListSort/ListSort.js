@@ -6,7 +6,6 @@ const cx = classNames.bind(styles);
 
 class ListSort extends Component{
     sort = (e, target, model) => {
-        console.log('안녕');
     };
 
     render() {
