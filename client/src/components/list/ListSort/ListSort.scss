@@ -1,0 +1,9 @@
+.list-sort {
+  display: flex; justify-content: flex-end;
+  div {
+    margin: 15px;
+  }
+  span {
+    cursor: pointer;
+  }
+}
