@@ -1,12 +1,12 @@
 import React from 'react';
 import {PageTemplate} from "../components/common";
 
-const MissingPage = () => {
+const MyPage = () => {
     return (
         <PageTemplate>
-
+            안녕세상
         </PageTemplate>
     )
 };
 
-export default MissingPage;
+export default MyPage;

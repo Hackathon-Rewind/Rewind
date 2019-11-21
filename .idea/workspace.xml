@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/list/Pagination/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/list/Pagination/Pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/list/Pagination/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/MyPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/ListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MissingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MissingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,7 @@
   <component name="ProjectId" id="1TuWh1EU7pXwn8btKwOnSMu1WIg" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/list" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +53,7 @@
       <recent name="C:\Rewind\client\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Rewind\client\src\components\list" />
       <recent name="C:\Rewind\client\src\components" />
       <recent name="C:\Rewind\client\src\components\common" />
     </key>
@@ -136,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574325480089</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="list page">
+      <created>1574329731118</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574329731118</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +178,7 @@
     <MESSAGE value="똥 다치우기" />
     <MESSAGE value="실종자 리스트 페이징작업 50%" />
     <MESSAGE value="axios 히오스" />
-    <option name="LAST_COMMIT_MESSAGE" value="axios 히오스" />
+    <MESSAGE value="list page" />
+    <option name="LAST_COMMIT_MESSAGE" value="list page" />
   </component>
 </project>
