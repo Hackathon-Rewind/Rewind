@@ -1,0 +1,27 @@
+.miss-post {
+ .wrap {
+   border: 1px solid #dedede; border-radius: 5px; min-height: 30vh; margin: 0 auto;
+   .row {
+     display: flex;
+     .left {
+       >*{margin: 5px;}
+       .image {
+         border: 1px solid black;
+         height: 350px;
+         width: 350px;
+         border-radius: 5px;
+       }
+     }
+     .missing{
+       .miss-head{margin: 30px; display: flex;}
+       .missing-data{
+         display: flex; margin: 30px; justify-content: space-between;
+         >p {width: 50%; }
+       }
+     }
+   }
+   .additional{
+      margin: 0 auto; padding: 10px;
+   }
+ }
+}

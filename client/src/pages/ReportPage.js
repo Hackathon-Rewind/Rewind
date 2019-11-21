@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTemplate from "../components/common/PageTemplate";
-import ReportComponent from '../components/Report/ReportComponent';
+import {ReportComponent} from "../components/Report";
 
 const ReportPage = () => {
     return (

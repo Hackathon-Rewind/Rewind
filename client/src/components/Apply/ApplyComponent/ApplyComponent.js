@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Button } from '../common';
+import { Button } from '../../common';
 
 class ApplyComponent extends Component {
 

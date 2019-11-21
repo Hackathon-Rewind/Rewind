@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from '../common';
+import { Button } from '../../common';
 import axios from 'axios';
 
 class ReportComponent extends Component {

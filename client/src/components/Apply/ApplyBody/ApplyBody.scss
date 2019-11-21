@@ -1,0 +1,36 @@
+.miss-report {
+  margin: 0 auto;
+  .data-col {
+    display: flex; justify-content: flex-start;
+    .data {
+      display: flex;
+      .data-type {
+
+      }
+      .data-form {
+        display: flex; line-height: 25px; align-items: center;
+        .input {
+          width: 100%; transition: 1s; border: 1px solid #dedede; border-radius: 5px; padding: 5px; height: 25px;
+        }
+        .input:focus {
+          box-shadow: 1px 1px 1px 1px aqua;
+        }
+        input[type=checkbox] {
+          margin: 0 10px; transition: .3s;
+        }
+        .char {
+          height: 75px; margin-left: 10px; width: 600px;
+        }
+        .text {
+          height: 150px; margin-left: 10px; width: 600px;
+        }
+      }
+    }
+    .data > * {
+      margin: 10px;
+    }
+  }
+  .btn{
+    margin: 15px 0; display: flex; justify-content: flex-end;
+  }
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import {PageTemplate} from '../components/common';
-import ApplyComponent from '../components/Apply/ApplyComponent';
+import {ApplyBody, ApplyComponent} from "../components/Apply";
 
 const ApplyPage = () => {
     return (
         <PageTemplate>
             <div className="container">
-                <ApplyComponent/>
+                {/*<ApplyComponent/>*/}
+                <ApplyBody/>
             </div>
         </PageTemplate>
     );
