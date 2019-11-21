@@ -1,11 +1,12 @@
 import React from 'react';
+import PageTemplate from "../components/common/PageTemplate";
 
 const MainPage = () => {
     return (
-        <div>
-            메인 페이지 입니다
-        </div>
-    );
+        <PageTemplate>
+            <div>메인 페이지</div>
+        </PageTemplate>
+    )
 };
 
 export default MainPage;
