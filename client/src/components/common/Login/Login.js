@@ -1,9 +1,9 @@
 import React from 'react'
 import './Login.css';
 import axios from 'axios';
-import img from '../../../img/loginBackground.png'
-import human from '../../../img/human.png'
-import key from '../../../img/key.png'
+import img from '../../../images/loginBackground.png'
+import human from '../../../images/human.png'
+import key from '../../../images/key.png'
 import { Link } from 'react-router-dom'
 
 class Login extends React.Component{
