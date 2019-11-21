@@ -1,10 +1,11 @@
 import React from 'react';
 import PageTemplate from "../components/common/PageTemplate";
+import ReportComponent from '../components/Report/ReportComponent';
 
 const ReportPage = () => {
     return (
         <PageTemplate>
-            <div>리포트 페이지입니다</div>
+            <ReportComponent/>
         </PageTemplate>
     )
 };
