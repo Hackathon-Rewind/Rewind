@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route /* Redirect */ } from 'react-router-dom';
-import TestPage from 'pages/TestPage';
+import { MainPage } from 'pages';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Route
         exact
         path={'/'}
-        render={() => <TestPage />}
+        render={() => <MainPage />}
       />
     </Switch>
   );
