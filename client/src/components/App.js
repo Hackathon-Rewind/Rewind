@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import {MainPage, NotFoundPage, ReportPage, ApplyPage, MissingPage} from "../pages";
+import {MainPage, NotFoundPage, ReportPage, ApplyPage, MissingPage, LoginPage} from "../pages";
 import ListPage from "../pages/ListPage";
 const App = () => {
     return (
@@ -12,7 +12,7 @@ const App = () => {
                 <Route exact path="/list" component={ListPage}/>
                 <Route exact path="/list/page/:page" component={ListPage}/>
                 <Route exact path="/list/:id" component={MissingPage}/>
-                <Route exact path="/login" component={<></>}/>
+                <Route exact path="/login" component={LoginPage}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>

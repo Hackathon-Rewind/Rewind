@@ -4,6 +4,7 @@ import axios from 'axios';
 import img from '../../../img/loginBackground.png'
 import human from '../../../img/human.png'
 import key from '../../../img/key.png'
+import { Link } from 'react-router-dom'
 
 class Login extends React.Component{
     constructor(props){
@@ -33,9 +34,10 @@ class Login extends React.Component{
             },
         }).then((req)=>{
             localStorage.setItem("access_token",req.data.access_token);
-            window.location.href="/"
+            window.location.href="/list"
         }).catch((e)=>{
-            console.log(e)
+            console.log(e);
+            alert("오류가 있습니다.");
         })
     }
 
@@ -58,8 +60,10 @@ class Login extends React.Component{
                             
                             <input type="button" onClick={this.ButtonClick} className="LoginButton" value="로그인"/>
                             <input type="button" onClick={this.ButtonClick} className="LoginButton" value="기관으로 로그인"/>
-                            <input type="button" value="Sign-up" className="LoginHelpButton"/>
-                            <input type="button" value="forgot your id? find ID" className="LoginHelpButton"/>
+                            {/* <input type="button" value="forgot your id? find ID" className="LoginHelpButton"/> */}
+                            <Link to="/signup">
+                                <input type="button" value="Sign-up" className="LoginHelpButton"/>
+                            </Link>
                         </div>
                     </div>
                 </div>

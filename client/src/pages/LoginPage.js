@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from '../components/common/Login/'
+import Login from '../components/common/Login/Login'
 
 function LoginPage(){
     return(
@@ -7,4 +7,4 @@ function LoginPage(){
     );
 }
 
-export default LoginPage
+export default LoginPage;
