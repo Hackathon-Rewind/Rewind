@@ -4,7 +4,9 @@ import PageTemplate from "../components/common/PageTemplate";
 const MainPage = () => {
     return (
         <PageTemplate>
-            <div>메인 페이지</div>
+            <div className="container">
+                <div>메인 페이지</div>
+            </div>
         </PageTemplate>
     )
 };

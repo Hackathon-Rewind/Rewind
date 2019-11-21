@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="listpage paging + mypage">
+    <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/list/ListSort/ListSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/ListSort/ListSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ApplyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ApplyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/MissingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MissingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ReportPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ReportPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574332513203</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="실종리스트 서버연동 완료">
+      <created>1574341942127</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574341942127</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +187,7 @@
     <MESSAGE value="axios 히오스" />
     <MESSAGE value="list page" />
     <MESSAGE value="listpage paging + mypage" />
-    <option name="LAST_COMMIT_MESSAGE" value="listpage paging + mypage" />
+    <MESSAGE value="실종리스트 서버연동 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="실종리스트 서버연동 완료" />
   </component>
 </project>

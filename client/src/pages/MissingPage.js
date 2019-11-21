@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Axios from 'axios';
 import {PageTemplate} from "../components/common";
 
 const MissingPage = ({ match }) => {
-    console.log(match);
+    const [detail, setDetail] = useState({});
+    const getDetail = async () => {
+        const result = await Axios.get(`http://172.26.0.34:8000/missing/list/${match.params.id}/`);
+        if(!result.data) {
+            setDetail(null);
+            return;
+        }
+
+        setDetail(result.data);
+    };
+
+    useEffect(() => {
+        getDetail();
+    }, []);
+
+
     return (
         <PageTemplate>
             <div className="container">
-                { match.params.id }
+                {JSON.stringify(detail)}
             </div>
         </PageTemplate>
     )
