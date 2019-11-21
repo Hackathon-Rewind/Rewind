@@ -12,6 +12,7 @@ const App = () => {
                 <Route exact path="/list" component={ListPage}/>
                 <Route exact path="/list/page/:page" component={ListPage}/>
                 <Route exact path="/list/:id" component={MissingPage}/>
+                <Route exact path="/login" component={<></>}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>
