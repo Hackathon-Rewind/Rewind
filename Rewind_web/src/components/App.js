@@ -10,6 +10,7 @@ const App = () => {
         path={'/'}
         render={() => <MainPage />}
       />
+
     </Switch>
   );
 };
