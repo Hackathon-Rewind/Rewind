@@ -25,7 +25,8 @@
     height: 100%;
 
     opacity: 0.8;
-    filter: blur(2px);
+    filter: blur(3px);
+    filter: brightness(0.8);
 }
 
 .slider-image span {
@@ -33,7 +34,10 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
+    transition: 2s;
 
+    color: white;
+    
     font-size: 3.5rem;
 }
 
@@ -76,6 +80,7 @@
   height: 10px;
   border-radius: 50%;
   border: 1px solid white;
+
 }
 
 .slider-change:active {

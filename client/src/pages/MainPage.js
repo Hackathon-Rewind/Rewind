@@ -18,9 +18,9 @@ const MainPage = () => {
                 <div className="App-section">
                     <span className="title">홍보 컨텐츠</span>
                     <div className="ad-container">
-                        <span><img src="https://picsum.photos/500/500" alt="logo"/></span>
+                        <span><img src="http://www.missingchild.or.kr/upload/popupzon/visual1.jpg" alt="logo"/></span>
                         <span>
-                            <iframe width="500" height="500" src="https://www.youtube.com/embed/D1PvIWdJ8xo"
+                            <iframe width="500" height="500" src="https://www.youtube.com/embed/ChRDZH6btW8"
                                       frameBorder="0"
                                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                       allowFullScreen>

@@ -59,6 +59,9 @@ a {
 .App-section .sponsor-wrapper {
   padding: 2rem 15vw 2rem 15vw;
   float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   overflow: auto;
 }
 
