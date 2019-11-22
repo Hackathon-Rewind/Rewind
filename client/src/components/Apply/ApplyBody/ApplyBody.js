@@ -54,6 +54,7 @@ class ApplyBody extends Component {
                     console.log(res); 
                     if(res.status === 200){
                         alert('성공적으로 신청하였습니다.');
+                        window.location.reload();
                     }
                     }).catch(err => {
                         console.error(err);
@@ -65,6 +66,7 @@ class ApplyBody extends Component {
                         alert('오류가 발생했습니다.');
                     }
             }
+        
         }
               
         handleSetImg = e => {
