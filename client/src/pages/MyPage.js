@@ -5,7 +5,7 @@ const MyPage = () => {
     return (
         <PageTemplate>
             <div className="container">
-                안녕세상
+                안뇽
             </div>
         </PageTemplate>
     )

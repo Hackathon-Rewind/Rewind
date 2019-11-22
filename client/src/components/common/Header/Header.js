@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import logo from '../../../images/MainPage/rewind-logo.png'
 import styles from './Header.scss';
 import classNames from 'classnames/bind';
 
@@ -12,7 +13,7 @@ const Header = () => {
             <nav className={cx('container')}>
                 <ul className={cx('main-list')}>
                     <Link to="/">
-                        <div className={cx('logo')}>로고일겁니다</div>
+                        <div className={cx('logo')}><img src={logo} className="App-logo" alt="logo"/></div>
                     </Link>
                     <li><Link to="/list" className={cx('link')}>실종자 찾기</Link></li>
                     <li><Link to="/apply" className={cx('link')}>실종자 신청</Link></li>
