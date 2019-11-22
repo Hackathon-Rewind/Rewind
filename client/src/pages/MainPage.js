@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/MainPage/MainPage.css';
 import {PageTemplate} from "../components/common";
-import {Banner, LostPeople} from "../components/Main";
+import Banner from "../components/Main/Banner";
+import LostPeople from "../components/Main/LostPeople";
 
 const MainPage = () => {
     return (
