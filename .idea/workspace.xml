@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/MissingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MissingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
