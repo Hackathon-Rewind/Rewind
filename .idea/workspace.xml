@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/MyInfo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MyInfo/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyInfo/Info/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MyInfo/Info/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyInfo/Info/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/common/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MyPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574384713362</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="실종자 카드 링크 바꿨어요">
+      <created>1574386993547</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574386993547</updated>
+    </task>
+    <task id="LOCAL-00020" summary="내정보페이지 누르면 혼내준다">
+      <created>1574389646069</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574389646069</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +254,8 @@
     <MESSAGE value="App.js 수정했어요" />
     <MESSAGE value="Header Footer수정했어요" />
     <MESSAGE value="디자인 개편했어요" />
-    <option name="LAST_COMMIT_MESSAGE" value="디자인 개편했어요" />
+    <MESSAGE value="실종자 카드 링크 바꿨어요" />
+    <MESSAGE value="내정보페이지 누르면 혼내준다" />
+    <option name="LAST_COMMIT_MESSAGE" value="내정보페이지 누르면 혼내준다" />
   </component>
 </project>
