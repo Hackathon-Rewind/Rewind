@@ -1,6 +1,16 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import {MainPage, NotFoundPage, ReportPage, ApplyPage, MissingPage, ListPage, MyPage, LoginPage} from "../pages";
+import {
+    MainPage,
+    NotFoundPage,
+    ReportPage,
+    ApplyPage,
+    MissingPage,
+    ListPage,
+    MyPage,
+    LoginPage,
+    PromotionPage
+} from "../pages";
 const App = () => {
     return (
         <div>
@@ -11,6 +21,7 @@ const App = () => {
                 <Route exact path="/list" component={ListPage}/>
                 <Route exact path="/list/page/:page" component={ListPage}/>
                 <Route exact path="/list/:id" component={MissingPage}/>
+                <Route exact path="/list/:id/:id" component={PromotionPage}/>
                 <Route exact path="/mypage" component={MyPage}/>
                 <Route exact path="/login" component={LoginPage}/>
                 <Route component={NotFoundPage}/>
