@@ -1,3 +1,4 @@
+// import React, {useState} from 'react';
 import React from 'react';
 import styles from './MissPost.scss';
 import classNames from 'classnames/bind';
@@ -5,42 +6,54 @@ import {Button} from "../../common";
 
 const cx = classNames.bind(styles);
 
-const MissPost = () => {
+const MissPost = ({children}) => {
+    // const [qwer , setqewr] = useState(false);
+    //
+    // const onClickPromotion = () => {
+    //     setqewr(true);
+    // };
+
     return (
         <div className={cx('miss-post ')}>
             <div className={cx('wrap col-8')}>
                 <div className={cx('row')}>
                     <div className={cx('left')}>
-                        <div className={cx('image col-3')}/>
-                        <Button to="/report">제보하기</Button>
+                        <div className={cx('image col-3')}>
+                            <img src={children.binary} alt=""/>
+                        </div>
+                        <Button to={children.id}>홍보하기</Button>
                     </div>
                     <div className={cx('missing col-12')}>
                         <div className={cx('miss-head col-12')}>
-                            <h3>이규진</h3><h3>(남자)</h3>
+                            <h3>{children.name}</h3><h3>({children.gender})</h3>
                         </div>
                         <div className={cx('missing-data col-12')}>
-                            <p>당시나이 4세</p><p>현재나이 23세</p>
-                        </div>
-
-                        <div className={cx('missing-data col-12')}>
-                            <p>발생일시2000년 04월 07일</p><p>발생장소 대구 달서 진천</p>
+                            <p>당시나이 4세</p><p>현재나이 {children.age}</p>
                         </div>
                         <div className={cx('missing-data col-12')}>
-                            <p>몸무게 18kg</p><p>체격 비만</p>
+                            <p>국적 {children.nation}</p><p>발생장소 {children.missArea}</p>
                         </div>
                         <div className={cx('missing-data col-12')}>
-                            <p>얼굴형 둥근형</p> <p>두발색상 흑색</p>
+                            <p>발생일시 {children.missDate}</p><p>발생장소 {children.missArea}</p>
                         </div>
                         <div className={cx('missing-data col-12')}>
-                            <p>두발형태 스포츠형</p><p>착의사항 기타</p>
+                            <p>신체특징 {children.physicalPoint}</p>
                         </div>
                     </div>
                 </div>
                 <div className={cx('additional col-12')}>
-                    앙 기모띠
+                    {children.additional}
                 </div>
 
             </div>
+            {/*{*/}
+            {/*    qwer ? (*/}
+            {/*        <div id="promotion" className={cx('col-12')}>*/}
+            {/*            asdf*/}
+            {/*        </div>*/}
+            {/*    ) : <></>*/}
+            {/*}*/}
+
         </div>
     )
 };

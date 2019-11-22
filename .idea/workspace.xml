@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyBody/ApplyBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyBody/ApplyBody.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyBody/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyComponent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Apply/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Report/ReportBody/ReportBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Report/ReportBody/ReportBody.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Report/ReportBody/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Report/ReportComponent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Report/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Promotion/Poster/Poster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Promotion/Poster/Poster.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Promotion/Poster/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/PromotionPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Apply/ApplyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyComponent/ApplyComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Apply/ApplyComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Apply/ApplyComponent/ApplyComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Report/ReportComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Report/ReportComponent/ReportComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Report/ReportComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Report/ReportComponent/ReportComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ApplyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ApplyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/MissingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MissingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ReportPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ReportPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574344259485</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="apply 페이지 디자인 일부">
+      <created>1574378672544</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574378672544</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +212,7 @@
     <MESSAGE value="listpage paging + mypage" />
     <MESSAGE value="실종리스트 서버연동 완료" />
     <MESSAGE value="MissingPage 데이터 받아오기 성공" />
-    <option name="LAST_COMMIT_MESSAGE" value="MissingPage 데이터 받아오기 성공" />
+    <MESSAGE value="apply 페이지 디자인 일부" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply 페이지 디자인 일부" />
   </component>
 </project>
