@@ -9,7 +9,8 @@ import {
     ListPage,
     MyPage,
     LoginPage,
-    PromotionPage
+    PromotionPage,
+    RegisterPage
 } from "../pages";
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                 <Route exact path="/list/:id/:id" component={PromotionPage}/>
                 <Route exact path="/mypage" component={MyPage}/>
                 <Route exact path="/login" component={LoginPage}/>
+                <Route eact path="/register" component={RegisterPage}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>
