@@ -156,7 +156,7 @@ class ApplyBody extends Component {
                     </div>
                 </div>
                 <div className={cx('btn')}>
-                    <Button onClick={this.handleSend}>신고하기</Button>
+                    <Button onClick={this.handleSend}>실종자 신청하기</Button>
                 </div>
 
             </div>
