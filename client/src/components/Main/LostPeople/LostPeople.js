@@ -1,8 +1,8 @@
 import React from 'react';
-import back_arrow from '../../images/MainPage/back.png';
-import next_arrow from '../../images/MainPage/next.png';
-import LostPersonInfo from './LostPersonInfo.js'
-import './LostPeople.css';
+import back_arrow from '../../../images/MainPage/back.png';
+import next_arrow from '../../../images/MainPage/next.png';
+import LostPersonInfo from '../LostPersonInfo/LostPersonInfo.js'
+import './LostPeople.scss';
 
 const LostPeople = () => {
     return (

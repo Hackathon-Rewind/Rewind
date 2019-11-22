@@ -1,9 +1,7 @@
 import React from 'react';
-
-import Banner from '../components/Main/Banner.js';
-import LostPeople from '../components/Main/LostPeople.js';
 import '../styles/MainPage/MainPage.css';
 import {PageTemplate} from "../components/common";
+import {Banner, LostPeople} from "../components/Main";
 
 const MainPage = () => {
     return (
@@ -25,7 +23,6 @@ const MainPage = () => {
                                       frameBorder="0"
                                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                       allowFullScreen>
-
                             </iframe>
                         </span>
                     </div>

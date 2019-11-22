@@ -34,10 +34,7 @@ const MissPost = ({children}) => {
                             <p>국적 {children.nation}</p><p>발생장소 {children.missArea}</p>
                         </div>
                         <div className={cx('missing-data col-12')}>
-                            <p>발생일시 {children.missDate}</p><p>발생장소 {children.missArea}</p>
-                        </div>
-                        <div className={cx('missing-data col-12')}>
-                            <p>신체특징 {children.physicalPoint}</p>
+                            <p>발생일시 {children.missDate}</p><p>신체특징 {children.physicalPoint}</p>
                         </div>
                     </div>
                 </div>
