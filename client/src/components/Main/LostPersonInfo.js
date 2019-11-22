@@ -1,5 +1,5 @@
 import React from 'react';
-import person from './images/person.jpg';
+import person from '../../images/MainPage/person.jpg';
 import './LostPersonInfo.css';
 
 const LostPersonInfo = () => {
