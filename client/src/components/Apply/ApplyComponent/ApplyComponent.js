@@ -45,7 +45,21 @@ class ApplyComponent extends Component {
                 'Authorization': localStorage.getItem('access_token')
               }
           }).then(res => {
-          console.log(res); 
+          console.log(res);
+          if(res.status === 200){
+            this.setState({
+              imgUrl: '',
+              relation: '',
+              name: '',
+              gender: '',
+              age: null,
+              nation: '',
+              missDate: '',
+              missArea: '',
+              physicalPoint: '',
+              additional: '',
+            });
+          }
           }).catch(err => {
             console.error(err);
             console.log(err);
@@ -82,7 +96,7 @@ class ApplyComponent extends Component {
     return (
       <div>
         실종자 신청
-        <input type="file" accept="image/png, image/jpeg" name="imgFile" onChange={this.handleSetImg}/>
+        <input type="file" accept="image/png, image/jpeg" onChange={this.handleSetImg}/>
         <label>
           <input placeholder="이름" name="name" onChange={this.handleSetMissing}/>
         </label>
