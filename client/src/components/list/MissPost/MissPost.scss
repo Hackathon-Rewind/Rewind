@@ -1,4 +1,5 @@
 .miss-post {
+  position: relative;
  .wrap {
    border: 1px solid #dedede; border-radius: 5px; min-height: 30vh; margin: 0 auto;
    .row {
@@ -6,10 +7,12 @@
      .left {
        >*{margin: 5px;}
        .image {
-         border: 1px solid black;
          height: 350px;
          width: 350px;
          border-radius: 5px;
+        > img {
+          width: 100%; height: 100%;
+        }
        }
      }
      .missing{
@@ -24,4 +27,7 @@
       margin: 0 auto; padding: 10px;
    }
  }
+  #promotion {
+    position: absolute; top: 0; height: 100vh;  background: rgba(0, 0, 0, .5);
+  }
 }
