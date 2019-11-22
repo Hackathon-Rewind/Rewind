@@ -27,6 +27,7 @@ const Header = () => {
                     <li><Link to="/apply" className={cx('link')}>실종자 신청</Link></li>
                     <li><Link to="/report" className={cx('link')}>제보하기</Link></li>
                     <li><Link to="/mypage" className={cx('link')}>내정보</Link></li>
+                    {/*내정보를 누르는 자는 죽음을 맞이할 지어다./*/}
                     {isLogin}
                 </ul>
             </nav>

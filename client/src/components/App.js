@@ -23,7 +23,7 @@ const App = () => {
                 <Route exact path="/list/page/:page" component={ListPage}/>
                 <Route exact path="/list/:id" component={MissingPage}/>
                 <Route exact path="/list/:id/:id" component={PromotionPage}/>
-                <Route exact path="/mypage" component={MyPage}/>
+                {/*<Route exact path="/mypage" component={MyPage}/>*/}
                 <Route exact path="/login" component={LoginPage}/>
                 <Route eact path="/register" component={RegisterPage}/>
                 <Route component={NotFoundPage}/>

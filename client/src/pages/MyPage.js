@@ -5,7 +5,7 @@ import axios from "axios";
 
 class MyPage extends Component {
     state = {
-        user : ""
+        user : []
     };
 
     async componentDidMount() {
@@ -15,28 +15,41 @@ class MyPage extends Component {
             }
         }).then(res => {
             console.log(res);
-            this.setState({user: res.data});
-            for(let i in this.state.user){
+            for(let i in res.data){
                 this.setState({
-                    user:[...this.state.user,this.state.user[i]],
+                    user: [...this.state.user,res.data[i]],
                 });
-                console.log(this.state.user[i])
             }
         }).catch(err => {
             console.error(err);
         });
     }
+
     render() {
-        return (
-            <PageTemplate>
-                <div className="container">
-                    <Info
-                        name={this.state.user.name}
-                        phone={this.state.user.phone}
-                    />
-                </div>
-            </PageTemplate>
-        )
+        const writtenArticle = this.state.user[3];
+        if(writtenArticle !== null && typeof writtenArticle !== undefined && this.state.user.length >= 4) {
+            var tempState = this.state.user[3];
+            var writtenArticleKey = Object.keys(writtenArticle);
+            return (
+                <PageTemplate>
+                    <div className="container">
+                        {writtenArticleKey.map((element) => {
+                            return (
+                                <Info
+                                    missing_list={tempState[element]}
+                                />
+                            )
+                        })}
+                    </div>
+                </PageTemplate>
+            )
+        } else {
+            return (
+                <PageTemplate>
+                </PageTemplate>
+            )
+        }
+
     }
 }
 
