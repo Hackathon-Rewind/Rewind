@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Info = () => {
-    return (
-        <div></div>
-    )
-};
+class Info extends Component {
+    render() {
+        return (
+            <div>
+                {this.props.name}
+                {this.props.phone}
+            </div>
+        )
+    }
+}
 
 export default Info;

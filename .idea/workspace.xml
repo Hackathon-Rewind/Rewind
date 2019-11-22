@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b485b9d6-ad6c-4312-8e7f-165fb9a7c0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main/Banner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main/LostPeople/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main/LostPersonInfo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MyInfo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/LostPeople.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/LostPeople/LostPeople.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/LostPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/LostPeople/LostPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/LostPersonInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/LostPersonInfo/LostPersonInfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Main/LostPersonInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/LostPersonInfo/LostPersonInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/common/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/common/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/common/PageTemplate/PageTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/PageTemplate/PageTemplate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissPost/MissPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MyInfo/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyInfo/Info/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MyInfo/Info/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MyInfo/Info/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/list/MissList/MissList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MyPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TuWh1EU7pXwn8btKwOnSMu1WIg" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -212,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574383645340</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="디자인 개편했어요">
+      <created>1574384713362</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574384713362</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +248,7 @@
     <MESSAGE value="list 페이지 끝" />
     <MESSAGE value="App.js 수정했어요" />
     <MESSAGE value="Header Footer수정했어요" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header Footer수정했어요" />
+    <MESSAGE value="디자인 개편했어요" />
+    <option name="LAST_COMMIT_MESSAGE" value="디자인 개편했어요" />
   </component>
 </project>

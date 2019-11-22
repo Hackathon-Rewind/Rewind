@@ -34,6 +34,7 @@ class Login extends React.Component{
             },
         }).then((req)=>{
             localStorage.setItem("access_token",req.data.access_token);
+
             window.location.href="/list"
         }).catch((e)=>{
             console.log(e);
