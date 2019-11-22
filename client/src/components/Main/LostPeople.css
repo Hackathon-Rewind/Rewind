@@ -1,0 +1,28 @@
+.lost-people-wrapper {
+    position: relative;
+    padding: 2rem 10vw 2rem 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+}
+
+.lost-people-wrapper .button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-color: #364452;
+}
+
+.lost-people-wrapper img {
+    width: 2.5rem;
+    height: 2.5rem;
+}

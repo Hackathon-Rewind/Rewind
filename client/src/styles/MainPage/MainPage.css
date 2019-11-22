@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR:500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  transition: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.App-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  border-bottom: 1.5px solid lightgray;
+  background-color: white;
+  z-index: 1;
+}
+
+.header-wrapper {
+  padding: 0.75rem;
+}
+
+.App-logo {
+  height: 4.5rem;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App-nav span {
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.App-section {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0.5rem 0;
+  overflow: auto;
+}
+
+.App-section .title {
+  font-size: 3.7rem;
+  border-bottom: 1.5px dashed gray;
+}
+
+.App-section .sponsor-wrapper {
+  padding: 2rem 15vw 2rem 15vw;
+  float: left;
+  overflow: auto;
+}
+
+.ad-container {
+  padding: 2rem 10vw 2rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.ad-container span {
+  width: 40vw;
+  height: 40vw;
+  margin-right: 1rem;
+  box-shadow: 0 4px 6px 0 lightgray, 0 4px 6px 0 lightgray;
+}
+.ad-container img, iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor-wrapper .sponsor-image {
+  display: inline-block;
+}
+
+.App-section:nth-child(odd) {
+  background-color: #f7f7f7;
+}
