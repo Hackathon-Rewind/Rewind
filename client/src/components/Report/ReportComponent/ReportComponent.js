@@ -61,6 +61,7 @@ class ReportComponent extends Component {
       console.log(res);
       if(res.status === 200){
         alert('성공적으로 올렸습니다.');
+        window.location.reload();
       }
     }).catch(err => {
       console.error(err);
